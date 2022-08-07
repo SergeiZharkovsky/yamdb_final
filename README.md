@@ -1,5 +1,8 @@
 ﻿# **YaMDb Project**
 
+[![Django-app workflow](https://github.com/SergeiZharkovsky/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/SergeiZharkovsky/yamdb_final/actions/workflows/yamdb_workflow.yml)
+
+
 ### _Контейнер для проекта "api_yamdb"_
 
 ## Описание
