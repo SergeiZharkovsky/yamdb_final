@@ -43,12 +43,14 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./api_yamdb/
+          file: ./api_yamdb/Dockerfile
           push: true
           tags: sergeizharkovsky/yamdb_final:latest
 
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
+    if: github.ref == 'refs/heads/master'
     steps:
       - name: executing remote ssh command to deploy
         uses: appleboy/ssh-action@master
