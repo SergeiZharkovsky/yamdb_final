@@ -2,7 +2,7 @@
 
 [![Django-app workflow](https://github.com/SergeiZharkovsky/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/SergeiZharkovsky/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
-Проект доступен по адресу: http://51.250.17.26/redoc/
+Проект доступен по адресу: http://84.252.141.85/redoc/
 
 ### _Контейнер для проекта "api_yamdb"_
 
